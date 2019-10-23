@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="calc.css">
+    
+</head>
+
+<body>
+
+    <div class="container border-">
+    
+        <div class="row">
+            <h1 class="display-1 text-center col-12 mt-5">Calculator</h1>
+        </div>
+        
+        <form>
+            <div class="form-group">
+                <input class="form-control text-center mt-5" name="result" type="number" readonly>
+            </div>
+        </form>
+
+        <div class="row justify-content-around">
+            <button type="button" class="numbers btn btn-info">7</button>
+            <button type="button" class="numbers btn btn-info">8</button>
+            <button type="button" class="numbers btn btn-info">9</button>
+            <button type="button" class="operators btn btn-info">+</button>
+        </div>
+    
+        <div class="row justify-content-around">
+            <button type="button" class="numbers btn btn-info">4</button>
+            <button type="button" class="numbers btn btn-info">5</button>
+            <button type="button" class="numbers btn btn-info">6</button>
+            <button type="button" class="operators btn btn-info">-</button>
+        </div>
+    
+        <div class="row justify-content-around">
+            <button type="button" class="numbers btn btn-info">1</button>
+            <button type="button" class="numbers btn btn-info">2</button>
+            <button type="button" class="numbers btn btn-info">3</button>
+            <button type="button" class="operators btn btn-info">X</button>
+        </div>
+    
+        <div class="row justify-content-around">
+            <button type="button" class="numbers btn btn-info">0</button>
+            <button type="button" class="clear btn btn-danger">C</button>
+            <button type="button" class="result btn btn-success">=</button>
+            <button type="button" class="operators btn btn-info">/</button>
+        </div>
+    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="calc.js"></script>
+
+</body>
+
+</html>
